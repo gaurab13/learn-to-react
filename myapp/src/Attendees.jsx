@@ -4,8 +4,8 @@ class Attendees extends Component {
   render() {
     return (
       <div className="attendees">
-        <p>Name: </p>
-        <p>Address: </p>
+        <p>{`Name: ${this.props.name}`}</p>
+        <p>{`Address: ${this.props.address}`}</p>
       </div>
     )
   }
